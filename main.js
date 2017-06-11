@@ -9,7 +9,7 @@ function max(num1, num2){
     else{
         return num1;
     }
-    
+
 }
 
 
@@ -64,6 +64,7 @@ function avg(num1, num2, num3){
 // Write a function called `getLength` that takes one parameter (a string) and returns the length
 // A:
 function getLength(word){
+  return(word.length);
 
 }
 
@@ -91,7 +92,7 @@ else{
 // A:
 function greet(Name){
     return "Hello," + Name + "!";
-     
+
 }
 
 
@@ -103,6 +104,8 @@ function greet(Name){
 // words: "quick", "fox", "fence"
 // sentence: "quick brown fox jumps over the fence"
 // A:
-function madlib(The , world, is , turning){
-    return "The" + "World" + "is" + "turning"; 
+function madlib(word1, word2, word3, word4){
+    return ("Trace" + word1 +"of" + word2 + "for" + word3 + "complement the body's" + word4 + "mix.");
 }
+
+function madlib(amounts, electrolytes, taste, natural);
